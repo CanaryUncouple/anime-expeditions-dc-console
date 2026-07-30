@@ -1,0 +1,49 @@
+<svg viewBox="0 0 1200 360" width="1200" height="360" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="50%" stop-color="#1a1030"/>
+      <stop offset="100%" stop-color="#2b1055"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#ff6ec7" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#ff6ec7" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="80%" cy="80%" r="50%">
+      <stop offset="0%" stop-color="#7f5cff" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#7f5cff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="360" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1200" height="360" fill="url(#glow)"/>
+  <rect x="0" y="0" width="1200" height="360" fill="url(#glow2)"/>
+
+  <g opacity="0.15" stroke="#ffffff" fill="none">
+    <circle cx="150" cy="80" r="60"/>
+    <circle cx="1080" cy="290" r="90"/>
+    <circle cx="1000" cy="60" r="30"/>
+    <circle cx="90" cy="300" r="45"/>
+  </g>
+
+  <g opacity="0.12" stroke="#ffb6e6" stroke-width="1.5">
+    <line x1="60" y1="40" x2="200" y2="40"/>
+    <line x1="1000" y1="330" x2="1140" y2="330"/>
+    <path d="M 40 200 Q 120 160 200 200" fill="none"/>
+    <path d="M 950 40 Q 1030 80 1110 40" fill="none"/>
+  </g>
+
+  <g opacity="0.18" fill="#ffffff">
+    <polygon points="140,150 148,168 166,168 152,180 158,198 140,186 122,198 128,180 114,168 132,168"/>
+    <polygon points="1060,130 1066,144 1080,144 1069,153 1074,167 1060,158 1046,167 1051,153 1040,144 1054,144"/>
+  </g>
+
+  <text x="600" y="175" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="58.0" fill="#ffffff" font-weight="bold">
+    <tspan x="600" dy="0">Anime Expeditions Script</tspan>
+  </text>
+
+  <text x="600" y="235" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="21.0" fill="#c9d1d9">
+    <tspan x="600" dy="0">Windows console for Anime Expeditions players — automates farming loops</tspan>
+    <tspan x="600" dy="30">and reports drops in real time.</tspan>
+  </text>
+</svg>
